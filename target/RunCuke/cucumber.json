@@ -1,0 +1,1880 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6561796700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify the product arrange in Alphabetical Order",
+        "description": "",
+        "id": "desktoppage-test;verify-the-product-arrange-in-alphabetical-order",
+        "after": [
+          {
+            "result": {
+              "duration": 740294500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 120823900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the DesktopPage",
+            "match": {
+              "location": "DesktopPageStep.iAmOnTheDesktopPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192780600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Mouse Hover on Desktop tab and click",
+            "match": {
+              "location": "HomePageStep.mouseHoverOnDesktopTabAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 906865200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select show all desktop",
+            "match": {
+              "location": "HomePageStep.selectShowAllDesktop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 502117600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select sort by position Name: Z to A",
+            "match": {
+              "location": "DesktopPageStep.selectSortByPositionNameZToA()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 381225800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the product will arrange in descending order",
+            "match": {
+              "location": "DesktopPageStep.verifyTheProductWillArrangeInDescendingOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3256831200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify product added to shopping cart successfully",
+        "description": "",
+        "id": "desktoppage-test;verify-product-added-to-shopping-cart-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 784033900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on the DesktopPage",
+            "match": {
+              "location": "DesktopPageStep.iAmOnTheDesktopPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 268375000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Mouse Hover on Desktop tab and click",
+            "match": {
+              "location": "HomePageStep.mouseHoverOnDesktopTabAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 845711000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "select show all desktop",
+            "match": {
+              "location": "HomePageStep.selectShowAllDesktop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 477722300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "select sort by position Name: A to Z",
+            "match": {
+              "location": "DesktopPageStep.selectSortByPositionNameAToZ()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1366092400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "select product \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 16
+                }
+              ],
+              "location": "DesktopPageStep.selectProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51881100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify the Text \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 17
+                }
+              ],
+              "location": "DesktopPageStep.verifyTheText(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 227328700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter Quantity 1 using select class",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "DesktopPageStep.enterQuantityUsingSelectClass(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9383866900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "select delivery date",
+            "match": {
+              "location": "DesktopPageStep.selectDeliveryDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59813600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click on Add to cart button",
+            "match": {
+              "location": "DesktopPageStep.clickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2031353500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "verify the Message Success: You have added HP \"LP3065\" to your shopping cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LP3065",
+                  "offset": 47
+                }
+              ],
+              "location": "DesktopPageStep.verifyTheMessageSuccessYouHaveAddedHPToYourShoppingCart(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2458556300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on the link shopping cart display into success message",
+            "match": {
+              "location": "DesktopPageStep.clickOnTheLinkShoppingCartDisplayIntoSuccessMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42413500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify the text Shopping Cart",
+            "match": {
+              "location": "DesktopPageStep.verifyTheTextShoppingCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28458500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verify the product name \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 25
+                }
+              ],
+              "location": "DesktopPageStep.verifyTheProductName(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28438900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify the delivery date \"Delivery Date: 2023-11-30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delivery Date: 2023-11-30",
+                  "offset": 26
+                }
+              ],
+              "location": "DesktopPageStep.verifyTheDeliveryDate(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30970000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "verify the model \"Product 21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product 21",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopPageStep.verifyTheModel(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 660794300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "select the currency",
+            "match": {
+              "location": "DesktopPageStep.selectTheCurrency()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41684800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify the Total \"£74.73\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£74.73",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopPageStep.verifyTheTotal(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@smoke"
+          },
+          {
+            "line": 12,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "DesktopPage Test",
+    "description": "As user I want to test DesktopPage into tutorial ninja Website",
+    "id": "desktoppage-test",
+    "keyword": "Feature",
+    "uri": "desktops.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3324203300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify that products price displayed high to low successfully",
+        "description": "",
+        "id": "laptops-and-notebooks-test;verify-that-products-price-displayed-high-to-low-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 735709400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyAccountStep.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 261905600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should hover laptops and notebooks tab and click",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iShouldHoverLaptopsAndNotebooksTabAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 576682200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on show laptops and notebooks",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iClickOnShowLaptopsAndNotebooks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 744876000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select sort by price high to low",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iSelectSortByPriceHighToLow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209735200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the product price will arrange in high to low order",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iShouldVerifyTheProductPriceWillArrangeInHighToLowOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3613794400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User can place order successfully",
+        "description": "",
+        "id": "laptops-and-notebooks-test;user-can-place-order-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 705191800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyAccountStep.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 633815400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on currency link",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iClickOnCurrencyLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159573100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should hover laptops and notebooks tab and click",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iShouldHoverLaptopsAndNotebooksTabAndClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 594405300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on show laptops and notebooks",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iClickOnShowLaptopsAndNotebooks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 654267500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select sort by price high to low",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iSelectSortByPriceHighToLow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1381771000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select product macbook",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iSelectProductMacbook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39008800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am verify text \"MacBook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MacBook",
+                  "offset": 18
+                }
+              ],
+              "location": "LaptopsAndDesktopTest.iAmVerifyText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60215700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on add cart button",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iClickOnAddCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 238216100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify the message Success: You have added MacBook to your shopping cart!",
+            "match": {
+              "location": "LaptopsAndDesktopTest.verifyTheMessageSuccessYouHaveAddedMacBookToYourShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412498900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am clicking on shopping cart text that display in to success message",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iAmClickingOnShoppingCartTextThatDisplayInToSuccessMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41150700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I can verify the text \"Shopping Cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shopping Cart",
+                  "offset": 23
+                }
+              ],
+              "location": "LaptopsAndDesktopTest.iCanVerifyTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111998600,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 25,
+                "value": "#    And I am verify product name \"MacBook\""
+              }
+            ],
+            "line": 26,
+            "name": "I change the quantity",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iChangeTheQuantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 520976600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should click on update tab",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iShouldClickOnUpdateTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41655400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am verifying message Success: You have modified your shopping cart!",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iAmVerifyingMessageSuccessYouHaveModifiedYourShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24927000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I can verify the total \"£737.45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£737.45",
+                  "offset": 24
+                }
+              ],
+              "location": "LaptopsAndDesktopTest.iCanVerifyTheTotal(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353525600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on checkout button",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iClickOnCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38775100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Verify the text \"Checkout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checkout",
+                  "offset": 19
+                }
+              ],
+              "location": "LaptopsAndDesktopTest.iVerifyTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5029761500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Verify the text \"New Customer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New Customer",
+                  "offset": 17
+                }
+              ],
+              "location": "LaptopsAndDesktopTest.verifyTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57082700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on guest checkout radio button",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iClickOnGuestCheckoutRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58319300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click continue tab",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iClickContinueTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1140161500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I fill all mandatory field",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iFillAllMandatoryField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78723200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on continue button",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 568229300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am adding comment about order into text area",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iAmAddingCommentAboutOrderIntoTextArea()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5077483500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I check the terms and conditions check box",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iCheckTheTermsAndConditionsCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61096600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I clicking on continue button",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iClickingOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 374314300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I get Warning message",
+            "match": {
+              "location": "LaptopsAndDesktopTest.iGetWarningMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@smoke"
+          },
+          {
+            "line": 12,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Laptops and notebooks Test",
+    "description": "As a user I can sort product by price and place order successfully",
+    "id": "laptops-and-notebooks-test",
+    "keyword": "Feature",
+    "uri": "laptopsandnotebooks.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3533821000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should navigate to register page successfully",
+        "description": "",
+        "id": "my-account-test;user-should-navigate-to-register-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 710841700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyAccountStep.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58309700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on my account link",
+            "match": {
+              "location": "MyAccountStep.iClickOnMyAccountLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 714834000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select register tab",
+            "match": {
+              "location": "MyAccountStep.iSelectRegisterTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33991500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify register account text \"Register Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register Account",
+                  "offset": 32
+                }
+              ],
+              "location": "MyAccountStep.iVerifyRegisterAccountText(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3519528400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "my-account-test;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 731663300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyAccountStep.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63217500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on my account link",
+            "match": {
+              "location": "MyAccountStep.iClickOnMyAccountLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 415565500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select login tab",
+            "match": {
+              "location": "MyAccountStep.iSelectLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39865200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify login account text \"Returning Customer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Returning Customer",
+                  "offset": 29
+                }
+              ],
+              "location": "MyAccountStep.iVerifyLoginAccountText(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@smoke"
+          },
+          {
+            "line": 11,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3248759000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User can register account successfully",
+        "description": "",
+        "id": "my-account-test;user-can-register-account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 998932800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyAccountStep.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66910300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on my account link",
+            "match": {
+              "location": "MyAccountStep.iClickOnMyAccountLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 781633300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select register tab",
+            "match": {
+              "location": "MyAccountStep.iSelectRegisterTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83170100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter first name \"Leo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Leo",
+                  "offset": 20
+                }
+              ],
+              "location": "MyAccountStep.iEnterFirstName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90547700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter last name \"Messi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Messi",
+                  "offset": 19
+                }
+              ],
+              "location": "MyAccountStep.iEnterLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98068900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter email \"messi103@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "messi103@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "MyAccountStep.iEnterEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91214700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter telephone \"07717223344\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07717223344",
+                  "offset": 19
+                }
+              ],
+              "location": "MyAccountStep.iEnterTelephone(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91510300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter password \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyAccountStep.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89711700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter confirm password \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test123",
+                  "offset": 26
+                }
+              ],
+              "location": "MyAccountStep.iEnterConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71613600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select subscribe radio button yes",
+            "match": {
+              "location": "MyAccountStep.iSelectSubscribeRadioButtonYes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62278500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on privacy policy check box",
+            "match": {
+              "location": "MyAccountStep.iClickOnPrivacyPolicyCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384205700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click continue button",
+            "match": {
+              "location": "MyAccountStep.iClickContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40096566300,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[contains(text(),\u0027Your Account Has Been Created!\u0027)]\"}\n  (Session info: chrome\u003d108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [85fd940209881defd67ed70a0af214b9, findElement {using\u003dxpath, value\u003d//h1[contains(text(),\u0027Your Account Has Been Created!\u0027)]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\LENOVO\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55311/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 85fd940209881defd67ed70a0af214b9\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy26.getText(Unknown Source)\r\n\tat com.tutorailsninja.demo.utility.Utility.getTextFromElement(Utility.java:61)\r\n\tat com.tutorailsninja.demo.pages.MyAccountPage.getAccountCreatedMessage(MyAccountPage.java:216)\r\n\tat com.tutorailsninja.demo.cucumber.steps.MyAccountStep.iVerifyMessage(MyAccountStep.java:86)\r\n\tat ✽.And I verify message \"Your Account Has Been Created!\"(myaccounts.feature:32)\r\n",
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "I verify message \"Your Account Has Been Created!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your Account Has Been Created!",
+                  "offset": 18
+                }
+              ],
+              "location": "MyAccountStep.iVerifyMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I am clicking on continue button",
+            "match": {
+              "location": "MyAccountStep.iAmClickingOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I am clicking on my account link",
+            "match": {
+              "location": "MyAccountStep.iAmClickingOnMyAccountLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I click on logout",
+            "match": {
+              "location": "MyAccountStep.iClickOnLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I am verifying the text \"Account Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account Logout",
+                  "offset": 25
+                }
+              ],
+              "location": "MyAccountStep.iAmVerifyingTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I am clicking continue",
+            "match": {
+              "location": "MyAccountStep.iAmClickingContinue()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3763092300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "User should login and logout successfully",
+        "description": "",
+        "id": "my-account-test;user-should-login-and-logout-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 653517000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 134900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyAccountStep.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128392200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on my account link",
+            "match": {
+              "location": "MyAccountStep.iClickOnMyAccountLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 385681500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I select login tab",
+            "match": {
+              "location": "MyAccountStep.iSelectLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163833900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter email address \"messi101@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "messi101@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "MyAccountStep.iEnterEmailAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113547500,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I enter password field \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test123",
+                  "offset": 24
+                }
+              ],
+              "location": "MyAccountStep.iEnterPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 550918700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I clicking on login button",
+            "match": {
+              "location": "MyAccountStep.iClickingOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38069300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I will verify the text \"My Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My Account",
+                  "offset": 24
+                }
+              ],
+              "location": "MyAccountStep.iWillVerifyTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51551700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click on my account",
+            "match": {
+              "location": "MyAccountStep.iClickOnMyAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 558078600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Select logout",
+            "match": {
+              "location": "MyAccountStep.selectLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40723900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "verify text \"Account Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account Logout",
+                  "offset": 13
+                }
+              ],
+              "location": "MyAccountStep.verifyText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371698200,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "click continue",
+            "match": {
+              "location": "MyAccountStep.clickContinue()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "My Account Test",
+    "description": "As a user I can register account and login and logout account successfully",
+    "id": "my-account-test",
+    "keyword": "Feature",
+    "uri": "myaccounts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3391861800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify the User Should navigate to Desktop Page Successfully",
+        "description": "",
+        "id": "topmenu-test;verify-the-user-should-navigate-to-desktop-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 758292300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageStep.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 284429200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Mouse Hover on Desktop tab and click",
+            "match": {
+              "location": "HomePageStep.mouseHoverOnDesktopTabAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 868213900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select show all desktop",
+            "match": {
+              "location": "HomePageStep.selectShowAllDesktop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42221800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the text Desktops",
+            "match": {
+              "location": "HomePageStep.verifyTheTextDesktops()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3187091900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify the User Should navigate to Laptop and Notebook Page Successfully",
+        "description": "",
+        "id": "topmenu-test;verify-the-user-should-navigate-to-laptop-and-notebook-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 752370200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageStep.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145917700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Mouse Hover on Laptop \u0026 Notebook tab and click",
+            "match": {
+              "location": "HomePageStep.mouseHoverOnLaptopNotebookTabAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 609546800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "select show all laptops and notebooks",
+            "match": {
+              "location": "HomePageStep.selectShowAllLaptopsAndNotebooks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31950300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the text Laptops \u0026 Notebooks",
+            "match": {
+              "location": "HomePageStep.verifyTheTextLaptopsNotebooks()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@smoke"
+          },
+          {
+            "line": 11,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3564020400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify the User Should navigate to Components Page Successfully",
+        "description": "",
+        "id": "topmenu-test;verify-the-user-should-navigate-to-components-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 757342400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 56000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageStep.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175844500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Mouse Hover on Components tab and click",
+            "match": {
+              "location": "HomePageStep.mouseHoverOnComponentsTabAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 570997500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "select show all Components",
+            "match": {
+              "location": "HomePageStep.selectShowAllComponents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37729100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "verify the text Components",
+            "match": {
+              "location": "HomePageStep.verifyTheTextComponents()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "TopMenu Test",
+    "description": "As user I want to test TopMenu into tutorial ninja Website",
+    "id": "topmenu-test",
+    "keyword": "Feature",
+    "uri": "topmenu.feature"
+  }
+]
